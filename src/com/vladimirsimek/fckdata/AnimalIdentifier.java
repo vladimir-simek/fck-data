@@ -2,7 +2,7 @@ package com.vladimirsimek.fckdata;
 
 public class AnimalIdentifier {
 
-    public int id;
+    public long id;
     public int type;
     public String name;
     public int age;
