@@ -11,7 +11,14 @@ public class Data {
             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("data/output/parsed_animals.csv"));
 
             String rawAnimalLine = bufferedReader.readLine();
+
             String rawAnimalIDLine = bufferedReaderID.readLine();
+
+
+
+            while (rawAnimalLine != null) {
+
+            }
 
 
         } catch (IOException e) {
@@ -22,4 +29,5 @@ public class Data {
     public static void getAggressiveAnimals() {
 
     }
+
 }
