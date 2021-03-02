@@ -6,8 +6,8 @@ public class AnimalIdentifier {
     public int type;
     public String name;
     public int age;
-    public char gender;
-    public char isAggressive;
-    public char isFriendly;
+    public String gender;
+    public String isAggressive;
+    public String isFriendly;
 
 }
